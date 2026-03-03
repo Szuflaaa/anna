@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kompleksowa Historia Sztucznej Inteligencji</title>
+
+<style>
+:root {
+    --primary: #1f3c88;
+    --secondary: #39a2db;
+    --light: #f4f6f9;
+    --dark: #111;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--light);
+    color: #333;
+    line-height: 1.7;
+    transition: 0.3s;
+}
+
+.dark-mode {
+    background: #121212;
+    color: #eee;
+}
+
+header {
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+nav {
+    background: var(--primary);
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    border-bottom: 4px solid var(--secondary);
+    padding-bottom: 5px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    margin: 25px 0;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.dark-mode .card {
+    background: #1e1e1e;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+th {
+    background: var(--primary);
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background: var(--secondary);
+}
+
+footer {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+details {
+    margin: 15px 0;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Kompleksowa Historia Sztucznej Inteligencji</h1>
+<p>Największy przegląd rozwoju AI – od teorii do przyszłości AGI</p>
+<button onclick="toggleMode()">🌙 Tryb Ciemny</button>
+</header>
+
+<nav>
+<a href="#historia">Historia</a>
+<a href="#dekady">Dekady</a>
+<a href="#technologie">Technologie</a>
+<a href="#kraje">Kraje</a>
+<a href="#zastosowania">Zastosowania</a>
+<a href="#etyka">Etyka</a>
+<a href="#przyszlosc">Przyszłość</a>
+<a href="#faq">FAQ</a>
+</nav>
+
+<section id="historia">
+<h2>1. Początki AI</h2>
+<div class="card">
+<p>Pierwsze koncepcje maszyn myślących pojawiły się już w starożytności, jednak prawdziwy rozwój rozpoczął się w XX wieku wraz z powstaniem teorii obliczeń.</p>
+<p>W 1956 roku odbyła się konferencja w Dartmouth, uznawana za narodziny sztucznej inteligencji jako dziedziny naukowej.</p>
+</div>
+</section>
+
+<section id="dekady">
+<h2>2. Rozwój Dekadami</h2>
+
+<div class="card">
+<h3>Lata 50.</h3>
+<p>Pierwsze programy rozwiązujące zadania logiczne i matematyczne.</p>
+</div>
+
+<div class="card">
+<h3>Lata 60.</h3>
+<p>Powstanie chatbotów i pierwsze eksperymenty z rozumieniem języka naturalnego.</p>
+</div>
+
+<div class="card">
+<h3>Lata 70.</h3>
+<p>Rozwój robotyki i systemów eksperckich.</p>
+</div>
+
+<div class="card">
+<h3>Lata 80.</h3>
+<p>Systemy eksperckie w biznesie, następnie kryzys finansowania (tzw. zima AI).</p>
+</div>
+
+<div class="card">
+<h3>Lata 90.</h3>
+<p>Komputery zaczynają pokonywać ludzi w grach strategicznych.</p>
+</div>
+
+<div class="card">
+<h3>2000–2010</h3>
+<p>Rozwój big data i uczenia maszynowego.</p>
+</div>
+
+<div class="card">
+<h3>2010–2025</h3>
+<p>Deep learning, generatywna AI, modele językowe, samochody autonomiczne.</p>
+</div>
+</section>
+
+<section>
+<h2>3. Szczegółowa Oś Czasu</h2>
+<div class="card">
+<table>
+<tr><th>Rok</th><th>Wydarzenie</th></tr>
+<tr><td>1956</td><td>Konferencja Dartmouth</td></tr>
+<tr><td>1966</td><td>Pierwszy chatbot</td></tr>
+<tr><td>1980</td><td>Systemy eksperckie w przemyśle</td></tr>
+<tr><td>1997</td><td>Komputer pokonuje mistrza świata w szachach</td></tr>
+<tr><td>2012</td><td>Przełom w rozpoznawaniu obrazów</td></tr>
+<tr><td>2016</td><td>AI wygrywa w grze Go</td></tr>
+<tr><td>2020+</td><td>Generatywna sztuczna inteligencja</td></tr>
+</table>
+</div>
+</section>
+
+<section id="technologie">
+<h2>4. Technologie AI</h2>
+<div class="card">
+<ul>
+<li>Uczenie maszynowe (Machine Learning)</li>
+<li>Deep Learning</li>
+<li>Sieci neuronowe</li>
+<li>Przetwarzanie języka naturalnego (NLP)</li>
+<li>Computer Vision</li>
+<li>Robotyka</li>
+<li>Reinforcement Learning</li>
+</ul>
+</div>
+</section>
+
+<section id="kraje">
+<h2>5. Rozwój AI na Świecie</h2>
+<div class="card">
+<ul>
+<li>USA – lider technologiczny</li>
+<li>Chiny – ogromne inwestycje państwowe</li>
+<li>Japonia – robotyka</li>
+<li>Kanada – badania deep learning</li>
+<li>Niemcy – przemysł i automatyzacja</li>
+<li>Francja – etyczna AI</li>
+<li>Wielka Brytania – badania akademickie</li>
+<li>Izrael – startupy AI</li>
+<li>Korea Południowa – technologie przyszłości</li>
+</ul>
+</div>
+</section>
+
+<section id="zastosowania">
+<h2>6. Zastosowania AI</h2>
+<div class="card">
+<ul>
+<li>Medycyna (diagnozowanie chorób)</li>
+<li>Finanse (wykrywanie oszustw)</li>
+<li>Wojsko (systemy autonomiczne)</li>
+<li>Edukacja (personalizowane nauczanie)</li>
+<li>Transport (auta autonomiczne)</li>
+<li>Gry komputerowe</li>
+<li>Marketing i reklama</li>
+</ul>
+</div>
+</section>
+
+<section id="etyka">
+<h2>7. Etyka i Kontrowersje</h2>
+<div class="card">
+<p>Rozwój AI rodzi pytania o prywatność, utratę miejsc pracy, bezpieczeństwo oraz możliwość powstania AGI.</p>
+<ul>
+<li>Deepfake</li>
+<li>Automatyzacja pracy</li>
+<li>Nadzór masowy</li>
+<li>Autonomiczna broń</li>
+</ul>
+</div>
+</section>
+
+<section id="przyszlosc">
+<h2>8. Przyszłość AI</h2>
+<div class="card">
+<p>Przyszłość może obejmować rozwój sztucznej inteligencji ogólnej (AGI), inteligentne miasta, roboty humanoidalne oraz przełomy w medycynie.</p>
+</div>
+</section>
+
+<section id="faq">
+<h2>9. FAQ</h2>
+<div class="card">
+<details>
+<summary>Czy AI zastąpi ludzi?</summary>
+<p>AI może zastąpić niektóre zawody, ale jednocześnie tworzy nowe miejsca pracy.</p>
+</details>
+
+<details>
+<summary>Czym jest AGI?</summary>
+<p>AGI to hipotetyczna sztuczna inteligencja dorównująca człowiekowi we wszystkich zadaniach poznawczych.</p>
+</details>
+
+<details>
+<summary>Czy AI jest bezpieczna?</summary>
+<p>Bezpieczeństwo AI zależy od regulacji i odpowiedzialnego rozwoju.</p>
+</details>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Kompleksowa Historia Sztucznej Inteligencji</p>
+</footer>
+
+<script>
+function toggleMode() {
+    document.body.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html>
